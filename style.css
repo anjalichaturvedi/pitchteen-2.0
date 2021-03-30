@@ -113,6 +113,57 @@ body {
   height: 200px;
 }
 
+.volunteer {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 300px;
+    margin-top: 80px;
+    color: #ffff;
+    margin-right: 300px;
+    height: 60vh;
+  }
+
+  .volunteer h1 {
+    font-size: 70px;
+    margin-bottom: 50px;
+  }
+
+.apps {
+  font-weight: bold;
+}
+
+.apps a {
+  text-decoration: underline;
+}
+
+.apps a:hover {
+  color: #e1cde4;
+}
+
+.faq {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 300px;
+    margin-top: 80px;
+    color: #ffff;
+    margin-right: 300px;
+    height: 100vh;
+  }
+
+  .faq h1 {
+    font-size: 70px
+  }
+
+.faq h6 {
+  font-weight: bold;
+}
+
+.box {
+  margin-bottom: 50px;
+}
+
+.answer {
+  margin-bottom: 20px:
+}
+
 /*Footer*/
 footer {
   text-align: center;
