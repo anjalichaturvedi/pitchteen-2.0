@@ -127,17 +127,16 @@ body {
     margin-bottom: 50px;
   }
 
-.apps {
-  font-weight: bold;
-}
+  .apps a {
+    color: #ffff;
+    margin-top: 10px;
+    padding: 0px;
+    text-decoration: underline;
+  }
 
-.apps a {
-  text-decoration: underline;
-}
-
-.apps a:hover {
-  color: #e1cde4;
-}
+  .apps a:hover {
+    color: #e1cde4;
+  }
 
 .faq {
     font-family: 'Poppins', sans-serif;
@@ -145,7 +144,6 @@ body {
     margin-top: 80px;
     color: #ffff;
     margin-right: 300px;
-    height: 100vh;
   }
 
   .faq h1 {
@@ -162,6 +160,45 @@ body {
 
 .answer {
   margin-bottom: 20px:
+}
+
+.register {
+  font-family: 'Poppins', sans-serif;
+  margin-left: 300px;
+  margin-top: 80px;
+  color: #ffff;
+  margin-right: 300px;
+  height: 60vh;
+}
+
+.register h1 {
+  font-size: 70px
+}
+
+.register a {
+  color: #ffff;
+  margin-top: 10px;
+  padding: 5px;
+  text-decoration: underline;
+}
+
+.register a:hover {
+  color: #e1cde4;
+}
+
+.sponsors {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 300px;
+  margin-top: 240px;
+  color: #ffff;
+  margin-right: 300px;
+  height: 35vh;
+}
+
+.sponsors
+h1 {
+  font-size: 70px;
 }
 
 /*Footer*/
