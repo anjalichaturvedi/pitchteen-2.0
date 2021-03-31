@@ -6,7 +6,6 @@ body {
   background: linear-gradient(to right, #7BC6CC, #BE93C5);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: 'Poppins', sans-serif;
-  margin: 0px;
 }
 
 #navbar a {
