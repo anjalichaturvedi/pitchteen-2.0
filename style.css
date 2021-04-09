@@ -8,6 +8,14 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .stats img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
 #navbar a {
   font-family: 'Poppins', sans-serif;
   position: absolute;
@@ -64,14 +72,45 @@ body {
 
 .home {
   font-family: 'Poppins', sans-serif;
-  margin-left: 300px;
+  margin-left: 60px;
   margin-top: 80px;
   color: #ffff;
-  margin-right: 300px;
+  margin-right: 20px;
+  font-size: 15px;
 }
 
 .home h1 {
-  font-size: 70px;
+  font-size: 45px;
+}
+
+@media screen and (min-width: 800px) {
+  .home {
+    margin-right: 300px;
+    margin-left: 300px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .home h1 {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (device-width: 768px)
+{
+  .home h1 {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (device-width: 768px)
+{
+  .home {
+    margin-right: 100px;
+    margin-left: 100px;
+    font-size: 20px;
+  }
 }
 
 .subitle {
@@ -103,27 +142,81 @@ body {
   font-size:30px;
 }
 **/
+@media screen and (min-width: 800px) {
+  .stats {
+    margin-left: 170px;
+  }
+}
+
+
 .stats {
-  margin-left: 170px;
+  margin-left: 20px;
 }
 
 .stats img {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
+}
+
+@media only screen and (min-width: 1060px)
+{
+  .stats img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: 1060px)
+{
+  .stats {
+    margin-left: 200px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .stats img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media only screen and (device-width: 768px)
+{
+  .home h1 {
+    font-size: 70px;
+  }
 }
 
 .volunteer {
     font-family: 'Poppins', sans-serif;
-    margin-left: 300px;
+    margin-left: 60px;
     margin-top: 80px;
     color: #ffff;
-    margin-right: 300px;
-    height: 60vh;
+    margin-right: 3S0px;
+    height: 100%;
   }
 
   .volunteer h1 {
-    font-size: 70px;
+    font-size: 60px;
     margin-bottom: 50px;
+  }
+
+  @media screen and (min-width: 800px) {
+    .volunteer {
+      font-family: 'Poppins', sans-serif;
+      margin-left: 300px;
+      margin-top: 80px;
+      color: #ffff;
+      margin-right: 300px;
+      height: 60vh;
+    }
+  }
+
+  @media only screen and (device-width: 768px)
+  {
+    .home h1 {
+      font-size: 70px;
+    }
   }
 
   .apps a {
@@ -214,6 +307,18 @@ h1 {
   width: 300px;
 }
 
+.resources h1 {
+  font-size: 70px;
+}
+
+.resources {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 300px;
+    margin-top: 200px;
+    color: #ffff;
+    margin-right: 300px;
+    height: 60vh;
+}
 /*Footer*/
 footer {
   text-align: center;
