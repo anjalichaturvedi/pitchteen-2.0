@@ -244,10 +244,20 @@ body {
 
 .faq {
     font-family: 'Poppins', sans-serif;
-    margin-left: 300px;
+    margin-left: 80px;
     margin-top: 80px;
     color: #ffff;
-    margin-right: 300px;
+    margin-right: 20px;
+  }
+
+  @media screen and (min-width: 800px) {
+    .faq {
+      font-family: 'Poppins', sans-serif;
+      margin-left: 300px;
+      margin-top: 80px;
+      color: #ffff;
+      margin-right: 300px;
+    }
   }
 
   .faq h1 {
@@ -256,6 +266,7 @@ body {
 
 .faq h6 {
   font-weight: bold;
+  font-size: 20px;
 }
 
 .box {
@@ -263,7 +274,7 @@ body {
 }
 
 .answer {
-  margin-bottom: 20px:
+  margin-bottom: 30px;
 }
 
 .register {
@@ -326,37 +337,92 @@ body {
 }
 
 
-.sponsors {
+/** .sponsors {
   font-family: 'Poppins', sans-serif;
-  margin-left: 300px;
+  margin-left: 80px;
   margin-top: 80px;
   color: #ffff;
-  margin-right: 300px;
-  height: 60vh;
+  margin-right: 30px;
+  height: 70vh;
 }
 
-.sponsors
-h1 {
-  font-size: 70px;
+.sponsors h1 {
+  font-size: 50px
 }
 
 .sponsors img {
   height: 100px;
   width: 300px;
 }
-
-.resources h1 {
-  font-size: 70px;
-}
+**/
 
 .resources {
+  font-family: 'Poppins', sans-serif;
+  margin-left: 80px;
+  margin-top: 80px;
+  color: #ffff;
+  margin-right: 30px;
+  height: 60vh;
+}
+
+.resources h1 {
+  font-size: 50px
+}
+
+.resources a {
+  color: #ffff;
+  margin-top: 10px;
+  padding: 5px;
+  text-decoration: underline;
+}
+
+.resources a:hover {
+  color: #e1cde4;
+}
+
+@media screen and (min-width: 800px) {
+  .resources {
     font-family: 'Poppins', sans-serif;
     margin-left: 300px;
-    margin-top: 200px;
+    margin-top: 80px;
     color: #ffff;
     margin-right: 300px;
-    height: 60vh;
+    height: 50vh;
+  }
 }
+
+@media screen and (min-width: 800px) {
+  .resources h1 {
+    font-size: 70px;
+    margin-top: 150px;
+  }
+}
+
+
+@media only screen and (device-width: 768px)
+{
+  .resources {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 200px;
+    margin-top: 80px;
+    color: #ffff;
+    margin-right: 200px;
+    height: 70vh;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1060px) {
+  .resources {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 300px;
+    margin-top: 80px;
+    color: #ffff;
+    margin-right: 300px;
+    height: 75vh;
+    font-size: 30px;
+  }
+}
+
 /*Footer*/
 footer {
   text-align: center;
