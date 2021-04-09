@@ -148,7 +148,6 @@ body {
   }
 }
 
-
 .stats {
   margin-left: 20px;
 }
@@ -156,6 +155,13 @@ body {
 .stats img {
   width: 100px;
   height: 100px;
+}
+
+@media (max-width: 768px ) and (min-width: 684px)
+{
+  .stats img {
+    margin-left: 90px;
+  }
 }
 
 @media only screen and (min-width: 1060px)
