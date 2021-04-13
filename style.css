@@ -54,7 +54,7 @@ body {
   background-color: #BE93C5;
 }
 
-#sponsors {
+/** #sponsors {
   top: 340px;
   background-color: #BE93C5;
 }
@@ -68,6 +68,18 @@ body {
 #contact {
   top: 500px;
   background-color: #BE93C5;
+}
+
+**/
+#speakers {
+  top: 340px;
+  background-color: #BE93C5;
+}
+
+#contact {
+  top: 420px;
+  background-color: #BE93C5;
+  font-size: 15px;
 }
 
 .home {
@@ -342,6 +354,72 @@ body {
   }
 }
 
+.speakers {
+  font-family: 'Poppins', sans-serif;
+  margin-left: 60px;
+  margin-top: 80px;
+  color: #ffff;
+  margin-right: 30px;
+}
+
+.speakers h1 {
+  font-size: 60px
+}
+
+.speakers img {
+  float: left;
+  border-radius: 50%;
+  width: 210px;
+  height: 230px;
+  margin-right: 50px;
+  transition: all .2s ease-in-out;
+  margin-bottom: 40px;
+}
+
+.eimg img {
+  width: 220px;
+  height: 240px;
+}
+
+.speakers h2 {
+  font-weight: bold;
+}
+
+.speakers img:hover {
+  transform: scale(1.2);
+}
+
+@media screen and (min-width: 800px) {
+  .speakers {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 300px;
+    margin-top: 80px;
+    color: #ffff;
+    margin-right: 300px;
+  }
+}
+
+@media only screen and (device-width: 768px)
+{
+  .speakers {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 200px;
+    margin-top: 80px;
+    color: #ffff;
+    margin-right: 200px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1060px) {
+  .speakers {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 300px;
+    margin-top: 80px;
+    color: #ffff;
+    margin-right: 300px;
+    font-size: 30px;
+  }
+}
 
 /** .sponsors {
   font-family: 'Poppins', sans-serif;
