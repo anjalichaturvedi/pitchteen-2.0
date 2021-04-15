@@ -70,7 +70,7 @@ body {
 .home {
   font-family: 'Poppins', sans-serif;
   margin-left: 60px;
-  margin-top: 80px;
+  margin-top: 120px;
   color: #ffff;
   margin-right: 20px;
   font-size: 15px;
@@ -193,7 +193,7 @@ body {
 .volunteer {
     font-family: 'Poppins', sans-serif;
     margin-left: 60px;
-    margin-top: 80px;
+    margin-top: 120px;
     color: #ffff;
     margin-right: 30px;
     height: 100%;
@@ -248,7 +248,7 @@ body {
 .faq {
     font-family: 'Poppins', sans-serif;
     margin-left: 80px;
-    margin-top: 80px;
+    margin-top: 120px;
     color: #ffff;
     margin-right: 20px;
   }
@@ -283,7 +283,7 @@ body {
 .register {
   font-family: 'Poppins', sans-serif;
   margin-left: 60px;
-  margin-top: 80px;
+  margin-top: 120px;
   color: #ffff;
   margin-right: 30px;
   height: 60vh;
@@ -308,7 +308,7 @@ body {
   .register {
     font-family: 'Poppins', sans-serif;
     margin-left: 300px;
-    margin-top: 80px;
+    margin-top: 120px;
     color: #ffff;
     margin-right: 300px;
     height: 60vh;
@@ -342,7 +342,7 @@ body {
 .speakers {
   font-family: 'Poppins', sans-serif;
   margin-left: 60px;
-  margin-top: 80px;
+  margin-top: 120px;
   color: #ffff;
   margin-right: 30px;
 }
@@ -448,7 +448,7 @@ a:hover {
 .mentorship {
     font-family: 'Poppins', sans-serif;
     margin-left: 80px;
-    margin-top: 80px;
+    margin-top: 120px;
     color: #ffff;
     margin-right: 20px;
   }
@@ -506,7 +506,7 @@ a:hover {
 .resources {
   font-family: 'Poppins', sans-serif;
   margin-left: 80px;
-  margin-top: 80px;
+  margin-top: 120px;
   color: #ffff;
   margin-right: 30px;
   height: 60vh;
