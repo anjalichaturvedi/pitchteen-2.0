@@ -382,7 +382,12 @@ button {
   margin-bottom: 60px;
 }
 
-.mentorship a:link, a:visited {
+.mentorship a:link {
+  color: #A67BD4;
+  text-decoration: none;
+}
+
+.appbutton a:link, a:visited {
   color: #A67BD4;
   text-decoration: none;
 }
