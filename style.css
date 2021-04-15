@@ -410,11 +410,15 @@ button {
 /* mentorship desktop h1 */
 @media screen and (min-width: 800px) {
   .mentorship h1 {
-    font-size: 70px;
+    font-size: 60px;
   }
 }
 
 /* accordion */
+.faqmain h2 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
 .accordion {
   background-color: #DBD9EB;
   color: #A67BD4;
