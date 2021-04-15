@@ -89,7 +89,6 @@ body {
 }
 
 /* ipad view  */
-
 @media only screen and (device-width: 768px) {
   .home h1 {
     font-size: 70px;
@@ -238,7 +237,6 @@ body {
   font-size: 20px;
 }
 
-
 /* faq desktop view  */
 @media screen and (min-width: 800px) {
   .faq {
@@ -366,7 +364,7 @@ button {
   margin-left: 60px;
   margin-top: 120px;
   color: #ffff;
-  margin-right: 20px;
+  margin-right: 50px;
 }
 
 .mentorship h1 {
@@ -414,6 +412,40 @@ button {
   .mentorship h1 {
     font-size: 70px;
   }
+}
+
+/* accordion */
+.accordion {
+  background-color: #DBD9EB;
+  color: #A67BD4;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.accordion:hover {
+  background-color: #DBD9EB;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #A67BD4;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  color: #A67BD4;
+  text-align: left;
 }
 
 /* resources */
@@ -504,7 +536,6 @@ button {
   width: 300px;
 }
 **/
-
 /*Footer*/
 footer {
   text-align: center;
