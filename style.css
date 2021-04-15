@@ -8,14 +8,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 600px) {
-  .stats img {
-    width: 40px;
-    height: 40px;
-  }
-}
-
+/* navbar */
 .navbar {
   transition: all 0.4s;
   font-family: 'Poppins', sans-serif;
@@ -66,6 +59,7 @@ body {
   }
 }
 
+/* home page */
 .home {
   font-family: 'Poppins', sans-serif;
   margin-left: 60px;
@@ -79,6 +73,7 @@ body {
   font-size: 45px;
 }
 
+/* desktop view  */
 @media screen and (min-width: 800px) {
   .home {
     margin-right: 300px;
@@ -92,6 +87,8 @@ body {
     font-size: 70px;
   }
 }
+
+/* ipad view  */
 
 @media only screen and (device-width: 768px) {
   .home h1 {
@@ -111,37 +108,13 @@ body {
   font-weight: 100;
 }
 
+/* introduction of the event  */
 .about {
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-/** #stats
-{
-  width: 170px;
-	height: 170px;
-	background:#e1cde4;
-	-moz-border-radius: 100px;
-	-webkit-border-radius: 100px;
-	border-radius: 100px;
-  float:left;
-  margin:5px;
-  text-align: justify;
-}
-.count
-{
-  line-height: 100px;
-  color:white;
-  margin-left:50px;
-  font-size:30px;
-}
-**/
-@media screen and (min-width: 800px) {
-  .stats {
-    margin-left: 170px;
-  }
-}
-
+/* stats images  */
 .stats {
   margin-left: 20px;
 }
@@ -151,12 +124,21 @@ body {
   height: 100px;
 }
 
+/* desktop view  */
+@media screen and (min-width: 800px) {
+  .stats {
+    margin-left: 170px;
+  }
+}
+
+/* ipad view  */
 @media (max-width: 768px) and (min-width: 684px) {
   .stats img {
     margin-left: 90px;
   }
 }
 
+/* desktop view images */
 @media only screen and (min-width: 1060px) {
   .stats img {
     width: 200px;
@@ -164,12 +146,14 @@ body {
   }
 }
 
+/* desktop view margin  */
 @media only screen and (min-width: 1060px) {
   .stats {
     margin-left: 200px;
   }
 }
 
+/* desktop view stats images  */
 @media screen and (min-width: 800px) {
   .stats img {
     width: 150px;
@@ -177,12 +161,7 @@ body {
   }
 }
 
-@media only screen and (device-width: 768px) {
-  .home h1 {
-    font-size: 70px;
-  }
-}
-
+/* volunteer  */
 .volunteer {
   font-family: 'Poppins', sans-serif;
   margin-left: 60px;
@@ -197,6 +176,7 @@ body {
   margin-bottom: 50px;
 }
 
+/* volunteer ipad pro view  */
 @media screen and (min-width: 800px) {
   .volunteer {
     font-family: 'Poppins', sans-serif;
@@ -208,12 +188,14 @@ body {
   }
 }
 
+/* ipad view  */
 @media only screen and (device-width: 768px) {
   .volunteer h1 {
     font-size: 70px;
   }
 }
 
+/* volunteer desktop view  */
 @media screen and (min-width: 1000px) and (max-width: 1060px) {
   .volunteer {
     font-family: 'Poppins', sans-serif;
@@ -226,6 +208,7 @@ body {
   }
 }
 
+/* volunteer application links  */
 .apps a {
   color: #ffff;
   margin-top: 10px;
@@ -237,22 +220,13 @@ body {
   color: #e1cde4;
 }
 
+/* faq  */
 .faq {
   font-family: 'Poppins', sans-serif;
   margin-left: 80px;
   margin-top: 120px;
   color: #ffff;
   margin-right: 20px;
-}
-
-@media screen and (min-width: 800px) {
-  .faq {
-    font-family: 'Poppins', sans-serif;
-    margin-left: 300px;
-    margin-top: 120px;
-    color: #ffff;
-    margin-right: 300px;
-  }
 }
 
 .faq h1 {
@@ -264,6 +238,19 @@ body {
   font-size: 20px;
 }
 
+
+/* faq desktop view  */
+@media screen and (min-width: 800px) {
+  .faq {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 300px;
+    margin-top: 120px;
+    color: #ffff;
+    margin-right: 300px;
+  }
+}
+
+/* for empty space and aesthetics  */
 .box {
   margin-bottom: 50px;
 }
@@ -272,64 +259,7 @@ body {
   margin-bottom: 30px;
 }
 
-.register {
-  font-family: 'Poppins', sans-serif;
-  margin-left: 60px;
-  margin-top: 120px;
-  color: #ffff;
-  margin-right: 30px;
-  height: 60vh;
-}
-
-.register h1 {
-  font-size: 60px;
-}
-
-.register a {
-  color: #ffff;
-  margin-top: 10px;
-  padding: 5px;
-  text-decoration: underline;
-}
-
-.register a:hover {
-  color: #e1cde4;
-}
-
-@media screen and (min-width: 800px) {
-  .register {
-    font-family: 'Poppins', sans-serif;
-    margin-left: 300px;
-    margin-top: 120px;
-    color: #ffff;
-    margin-right: 300px;
-    height: 60vh;
-  }
-}
-
-@media only screen and (device-width: 768px) {
-  .register {
-    font-family: 'Poppins', sans-serif;
-    margin-left: 200px;
-    margin-top: 120px;
-    color: #ffff;
-    margin-right: 200px;
-    height: 70vh;
-  }
-}
-
-@media screen and (min-width: 1000px) and (max-width: 1060px) {
-  .register {
-    font-family: 'Poppins', sans-serif;
-    margin-left: 300px;
-    margin-top: 120px;
-    color: #ffff;
-    margin-right: 300px;
-    height: 75vh;
-    font-size: 30px;
-  }
-}
-
+/* speakers  */
 .speakers {
   font-family: 'Poppins', sans-serif;
   margin-left: 60px;
@@ -352,6 +282,7 @@ body {
   margin-bottom: 40px;
 }
 
+/* emily's photo  */
 .eimg img {
   width: 220px;
   height: 240px;
@@ -361,10 +292,12 @@ body {
   font-weight: bold;
 }
 
+/* transition  */
 .speakers img:hover {
   transform: scale(1.2);
 }
 
+/* speakers ipad pro view  */
 @media screen and (min-width: 800px) {
   .speakers {
     font-family: 'Poppins', sans-serif;
@@ -375,6 +308,7 @@ body {
   }
 }
 
+/* speakers ipad view  */
 @media only screen and (device-width: 768px) {
   .speakers {
     font-family: 'Poppins', sans-serif;
@@ -385,6 +319,7 @@ body {
   }
 }
 
+/* speakers desktop view  */
 @media screen and (min-width: 1000px) and (max-width: 1060px) {
   .speakers {
     font-family: 'Poppins', sans-serif;
@@ -396,6 +331,7 @@ body {
   }
 }
 
+/* speakers mobile view  */
 @media only screen and (max-width: 760px) {
   .speakers img {
     width: 200px;
@@ -404,6 +340,7 @@ body {
   }
 }
 
+/* all buttons follow this  */
 button {
   font-family: 'Poppins', sans-serif;
   background-color: #DBD9EB;
@@ -423,35 +360,13 @@ button {
   margin-bottom: 40px;
 }
 
-.appbutton a:link, a:visited {
-  color: #A67BD4;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-.appbutton {
-  margin-top: 30px;
-}
-
+/* ElevateHER */
 .mentorship {
   font-family: 'Poppins', sans-serif;
-  margin-left: 80px;
+  margin-left: 60px;
   margin-top: 120px;
   color: #ffff;
   margin-right: 20px;
-}
-
-@media screen and (min-width: 800px) {
-  .mentorship {
-    font-family: 'Poppins', sans-serif;
-    margin-left: 300px;
-    margin-top: 120px;
-    color: #ffff;
-    margin-right: 300px;
-  }
 }
 
 .mentorship h1 {
@@ -464,35 +379,44 @@ a:hover {
   font-weight: bold;
 }
 
+.container h2 {
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.mentorship a:link, a:visited {
+  color: #A67BD4;
+  text-decoration: none;
+}
+
+.mentorship a:hover {
+  text-decoration: underline;
+}
+
+/* Apply for being a mentee */
+.appbutton {
+  margin-top: 30px;
+}
+
+/* mentorship desktop view */
+@media screen and (min-width: 800px) {
+  .mentorship {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 300px;
+    margin-top: 120px;
+    color: #ffff;
+    margin-right: 300px;
+  }
+}
+
+/* mentorship desktop h1 */
 @media screen and (min-width: 800px) {
   .mentorship h1 {
     font-size: 70px;
   }
 }
 
-.container h2 {
-  font-weight: bold;
-  margin-bottom: 60px;
-}
-
-/** .sponsors {
-  font-family: 'Poppins', sans-serif;
-  margin-left: 80px;
-  margin-top: 80px;
-  color: #ffff;
-  margin-right: 30px;
-  height: 70vh;
-}
-
-.sponsors h1 {
-  font-size: 50px
-}
-
-.sponsors img {
-  height: 100px;
-  width: 300px;
-}
-**/
+/* resources */
 .resources {
   font-family: 'Poppins', sans-serif;
   margin-left: 80px;
@@ -517,6 +441,7 @@ a:hover {
   color: #e1cde4;
 }
 
+/* resources desktop view */
 @media screen and (min-width: 800px) {
   .resources {
     font-family: 'Poppins', sans-serif;
@@ -528,6 +453,7 @@ a:hover {
   }
 }
 
+/* resources desktop h1 */
 @media screen and (min-width: 800px) {
   .resources h1 {
     font-size: 70px;
@@ -535,6 +461,7 @@ a:hover {
   }
 }
 
+/* resources ipad view */
 @media only screen and (device-width: 768px) {
   .resources {
     font-family: 'Poppins', sans-serif;
@@ -546,6 +473,7 @@ a:hover {
   }
 }
 
+/* resources ipad pro */
 @media screen and (min-width: 1000px) and (max-width: 1060px) {
   .resources {
     font-family: 'Poppins', sans-serif;
@@ -557,6 +485,25 @@ a:hover {
     font-size: 30px;
   }
 }
+
+/** .sponsors {
+  font-family: 'Poppins', sans-serif;
+  margin-left: 80px;
+  margin-top: 80px;
+  color: #ffff;
+  margin-right: 30px;
+  height: 70vh;
+}
+
+.sponsors h1 {
+  font-size: 50px
+}
+
+.sponsors img {
+  height: 100px;
+  width: 300px;
+}
+**/
 
 /*Footer*/
 footer {
