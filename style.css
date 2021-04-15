@@ -17,54 +17,53 @@ body {
 }
 
 .navbar {
-    transition: all 0.4s;
-    font-family: 'Poppins', sans-serif;
+  transition: all 0.4s;
+  font-family: 'Poppins', sans-serif;
 }
 
 .navbar .nav-link {
-    color: #fff;
+  color: #fff;
 }
 
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 .navbar .navbar-brand {
-    color: #fff;
+  color: #fff;
 }
 
 /* Change navbar styling on scroll */
 .navbar.active {
-    background:#DBD9EB;
-    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+  background: #DBD9EB;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .navbar.active .nav-link {
-    color: #555;
+  color: #555;
 }
 
 .navbar.active .nav-link:hover,
 .navbar.active .nav-link:focus {
-    color: #555;
-    text-decoration: none;
+  color: #555;
+  text-decoration: none;
 }
 
 .navbar.active .navbar-brand {
-    color: #555;
+  color: #555;
 }
-
 
 /* Change navbar styling on small viewports */
 @media (max-width: 991.98px) {
-    .navbar {
-        background: #fff;
-    }
+  .navbar {
+    background: #fff;
+  }
 
-    .navbar .navbar-brand, .navbar .nav-link {
-        color: #555;
-    }
+  .navbar .navbar-brand, .navbar .nav-link {
+    color: #555;
+  }
 }
 
 .home {
@@ -94,15 +93,13 @@ body {
   }
 }
 
-@media only screen and (device-width: 768px)
-{
+@media only screen and (device-width: 768px) {
   .home h1 {
     font-size: 70px;
   }
 }
 
-@media only screen and (device-width: 768px)
-{
+@media only screen and (device-width: 768px) {
   .home {
     margin-right: 100px;
     margin-left: 100px;
@@ -154,23 +151,20 @@ body {
   height: 100px;
 }
 
-@media (max-width: 768px ) and (min-width: 684px)
-{
+@media (max-width: 768px) and (min-width: 684px) {
   .stats img {
     margin-left: 90px;
   }
 }
 
-@media only screen and (min-width: 1060px)
-{
+@media only screen and (min-width: 1060px) {
   .stats img {
     width: 200px;
     height: 200px;
   }
 }
 
-@media only screen and (min-width: 1060px)
-{
+@media only screen and (min-width: 1060px) {
   .stats {
     margin-left: 200px;
   }
@@ -183,89 +177,87 @@ body {
   }
 }
 
-@media only screen and (device-width: 768px)
-{
+@media only screen and (device-width: 768px) {
   .home h1 {
     font-size: 70px;
   }
 }
 
 .volunteer {
+  font-family: 'Poppins', sans-serif;
+  margin-left: 60px;
+  margin-top: 120px;
+  color: #ffff;
+  margin-right: 30px;
+  height: 100%;
+}
+
+.volunteer h1 {
+  font-size: 55px;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 800px) {
+  .volunteer {
     font-family: 'Poppins', sans-serif;
-    margin-left: 60px;
+    margin-left: 300px;
     margin-top: 120px;
     color: #ffff;
-    margin-right: 30px;
-    height: 100%;
+    margin-right: 300px;
+    height: 60vh;
   }
+}
 
+@media only screen and (device-width: 768px) {
   .volunteer h1 {
-    font-size: 55px;
-    margin-bottom: 50px;
+    font-size: 70px;
   }
+}
 
-  @media screen and (min-width: 800px) {
-    .volunteer {
-      font-family: 'Poppins', sans-serif;
-      margin-left: 300px;
-      margin-top: 80px;
-      color: #ffff;
-      margin-right: 300px;
-      height: 60vh;
-    }
-  }
-
-  @media only screen and (device-width: 768px)
-  {
-    .volunteer h1 {
-      font-size: 70px;
-    }
-  }
-
-  @media screen and (min-width: 1000px) and (max-width: 1060px) {
-    .volunteer {
-      font-family: 'Poppins', sans-serif;
-      margin-left: 300px;
-      margin-top: 80px;
-      color: #ffff;
-      margin-right: 300px;
-      height: 75vh;
-      font-size: 30px;
-    }
-  }
-
-  .apps a {
+@media screen and (min-width: 1000px) and (max-width: 1060px) {
+  .volunteer {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 300px;
+    margin-top: 120px;
     color: #ffff;
-    margin-top: 10px;
-    padding: 0px;
-    text-decoration: underline;
+    margin-right: 300px;
+    height: 75vh;
+    font-size: 30px;
   }
+}
 
-  .apps a:hover {
-    color: #e1cde4;
-  }
+.apps a {
+  color: #ffff;
+  margin-top: 10px;
+  padding: 0px;
+  text-decoration: underline;
+}
+
+.apps a:hover {
+  color: #e1cde4;
+}
 
 .faq {
+  font-family: 'Poppins', sans-serif;
+  margin-left: 80px;
+  margin-top: 120px;
+  color: #ffff;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 800px) {
+  .faq {
     font-family: 'Poppins', sans-serif;
-    margin-left: 80px;
+    margin-left: 300px;
     margin-top: 120px;
     color: #ffff;
-    margin-right: 20px;
+    margin-right: 300px;
   }
+}
 
-  @media screen and (min-width: 800px) {
-    .faq {
-      font-family: 'Poppins', sans-serif;
-      margin-left: 300px;
-      margin-top: 80px;
-      color: #ffff;
-      margin-right: 300px;
-    }
-  }
-
-  .faq h1 {
-    font-size: 70px
-  }
+.faq h1 {
+  font-size: 70px
+}
 
 .faq h6 {
   font-weight: bold;
@@ -315,12 +307,11 @@ body {
   }
 }
 
-@media only screen and (device-width: 768px)
-{
+@media only screen and (device-width: 768px) {
   .register {
     font-family: 'Poppins', sans-serif;
     margin-left: 200px;
-    margin-top: 80px;
+    margin-top: 120px;
     color: #ffff;
     margin-right: 200px;
     height: 70vh;
@@ -331,7 +322,7 @@ body {
   .register {
     font-family: 'Poppins', sans-serif;
     margin-left: 300px;
-    margin-top: 80px;
+    margin-top: 120px;
     color: #ffff;
     margin-right: 300px;
     height: 75vh;
@@ -378,18 +369,17 @@ body {
   .speakers {
     font-family: 'Poppins', sans-serif;
     margin-left: 300px;
-    margin-top: 80px;
+    margin-top: 120px;
     color: #ffff;
     margin-right: 300px;
   }
 }
 
-@media only screen and (device-width: 768px)
-{
+@media only screen and (device-width: 768px) {
   .speakers {
     font-family: 'Poppins', sans-serif;
     margin-left: 200px;
-    margin-top: 80px;
+    margin-top: 120px;
     color: #ffff;
     margin-right: 200px;
   }
@@ -399,7 +389,7 @@ body {
   .speakers {
     font-family: 'Poppins', sans-serif;
     margin-left: 300px;
-    margin-top: 80px;
+    margin-top: 120px;
     color: #ffff;
     margin-right: 300px;
     font-size: 30px;
@@ -415,21 +405,22 @@ body {
 }
 
 button {
-font-family: 'Poppins', sans-serif;
-background-color: #DBD9EB;
-border: none;
-color: black;
-padding: 7px 12px;
-text-align: center;
-display: block;
-text-decoration: none;
-font-size: 7px;
-cursor: pointer;
--webkit-transition-duration: 0.4s; /* Safari */
-transition-duration: 0.4s;
-border-radius: 30px;
-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-margin-bottom: 40px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #DBD9EB;
+  border: none;
+  color: black;
+  padding: 7px 12px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  font-size: 7px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  border-radius: 30px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 40px;
 }
 
 .appbutton a:link, a:visited {
@@ -446,27 +437,27 @@ a:hover {
 }
 
 .mentorship {
+  font-family: 'Poppins', sans-serif;
+  margin-left: 80px;
+  margin-top: 120px;
+  color: #ffff;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 800px) {
+  .mentorship {
     font-family: 'Poppins', sans-serif;
-    margin-left: 80px;
+    margin-left: 300px;
     margin-top: 120px;
     color: #ffff;
-    margin-right: 20px;
+    margin-right: 300px;
   }
+}
 
-  @media screen and (min-width: 800px) {
-    .mentorship {
-      font-family: 'Poppins', sans-serif;
-      margin-left: 300px;
-      margin-top: 80px;
-      color: #ffff;
-      margin-right: 300px;
-    }
-  }
-
-  .mentorship h1 {
-    font-size: 40px;
-    text-align: center;
-  }
+.mentorship h1 {
+  font-size: 40px;
+  text-align: center;
+}
 
 .col-sm h4 {
   margin-top: 20px;
@@ -502,7 +493,6 @@ a:hover {
   width: 300px;
 }
 **/
-
 .resources {
   font-family: 'Poppins', sans-serif;
   margin-left: 80px;
@@ -545,9 +535,7 @@ a:hover {
   }
 }
 
-
-@media only screen and (device-width: 768px)
-{
+@media only screen and (device-width: 768px) {
   .resources {
     font-family: 'Poppins', sans-serif;
     margin-left: 200px;
