@@ -387,11 +387,6 @@ button {
   text-decoration: none;
 }
 
-.appbutton a:link, a:visited {
-  color: #A67BD4;
-  text-decoration: none;
-}
-
 .mentorship a:hover {
   text-decoration: underline;
 }
@@ -400,6 +395,17 @@ button {
 .appbutton {
   margin-top: 30px;
 }
+
+.appbutton a:link, a:visited {
+  color: #A67BD4;
+  text-decoration: none;
+}
+
+.appbutton a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 
 /* mentorship desktop view */
 @media screen and (min-width: 800px) {
