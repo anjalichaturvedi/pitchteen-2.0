@@ -551,6 +551,16 @@ button {
   width: auto;
 }
 
+.sponsors a {
+  color: #ffff;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+.sponsors a:hover {
+  color: #e1cde4;
+}
+
 .gold {
   margin-top: 30px;
   margin-bottom: 30px;
