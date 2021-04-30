@@ -62,7 +62,7 @@ body {
 /* home page */
 .home {
   font-family: 'Poppins', sans-serif;
-  margin-left: 60px;
+  margin-left: 30px;
   margin-top: 120px;
   color: #ffff;
   margin-right: 20px;
@@ -163,7 +163,7 @@ body {
 /* volunteer  */
 .volunteer {
   font-family: 'Poppins', sans-serif;
-  margin-left: 60px;
+  margin-left: 30px;
   margin-top: 120px;
   color: #ffff;
   margin-right: 30px;
@@ -222,7 +222,7 @@ body {
 /* faq  */
 .faq {
   font-family: 'Poppins', sans-serif;
-  margin-left: 80px;
+  margin-left: 30px;
   margin-top: 120px;
   color: #ffff;
   margin-right: 20px;
@@ -260,7 +260,7 @@ body {
 /* speakers  */
 .speakers {
   font-family: 'Poppins', sans-serif;
-  margin-left: 60px;
+  margin-left: 30px;
   margin-top: 120px;
   color: #ffff;
   margin-right: 30px;
@@ -361,7 +361,7 @@ button {
 /* ElevateHER */
 .mentorship {
   font-family: 'Poppins', sans-serif;
-  margin-left: 60px;
+  margin-left: 30px;
   margin-top: 120px;
   color: #ffff;
   margin-right: 50px;
@@ -618,6 +618,65 @@ button {
     margin-top: 20px;
   }
 }
+
+/* Code of Conduct */
+.codeofconduct {
+  font-family: 'Poppins', sans-serif;
+  margin-left: 20px;
+  margin-top: 120px;
+  color: #ffff;
+  margin-right: 30px;
+}
+
+.codeofconduct h1 {
+  font-size: 45px;
+  font-weight: 10px;
+  margin-bottom: 30px;
+}
+
+.codeofconduct h5 {
+  text-decoration: underline;
+}
+
+.codeofconduct a {
+  color: #ffff;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+.codeofconduct a:hover {
+  color: #e1cde4;
+}
+
+@media screen and (min-width: 800px) {
+  .codeofconduct {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 300px;
+    margin-top: 120px;
+    color: #ffff;
+    margin-right: 300px;
+  }
+}
+
+/* ipad view  */
+@media only screen and (device-width: 768px) {
+  .codeofconduct h1 {
+    font-size: 70px;
+  }
+}
+
+/* codeofconduct desktop view  */
+@media screen and (min-width: 1000px) and (max-width: 1060px) {
+  .codeofconduct {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 300px;
+    margin-top: 120px;
+    color: #ffff;
+    margin-right: 300px;
+    font-size: 30px;
+  }
+}
+
 
 /*Footer*/
 footer {
