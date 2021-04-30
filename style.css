@@ -631,11 +631,14 @@ button {
 .codeofconduct h1 {
   font-size: 45px;
   font-weight: 10px;
-  margin-bottom: 30px;
 }
 
 .codeofconduct h5 {
   text-decoration: underline;
+}
+
+.codeofconduct h6 {
+  margin-bottom: 30px;
 }
 
 .codeofconduct a {
