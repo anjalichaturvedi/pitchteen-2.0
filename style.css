@@ -298,10 +298,10 @@ body {
 @media screen and (min-width: 800px) {
   .speakers {
     font-family: 'Poppins', sans-serif;
-    margin-left: 100px;
+    margin-left: 300px;
     margin-top: 120px;
     color: #ffff;
-    margin-right: 100px;
+    margin-right: 300px;
   }
 }
 
@@ -334,6 +334,13 @@ body {
     width: 200px;
     height: 200px;
     text-align: center;
+  }
+}
+
+@media screen and (min-width: 700px) (max-width: 1000px) {
+  .speakers {
+    margin-left: 70px;
+    margin-right: 70px;
   }
 }
 
