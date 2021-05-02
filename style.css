@@ -298,10 +298,10 @@ body {
 @media screen and (min-width: 800px) {
   .speakers {
     font-family: 'Poppins', sans-serif;
-    margin-left: 300px;
+    margin-left: 100px;
     margin-top: 120px;
     color: #ffff;
-    margin-right: 300px;
+    margin-right: 100px;
   }
 }
 
@@ -309,10 +309,10 @@ body {
 @media only screen and (device-width: 768px) {
   .speakers {
     font-family: 'Poppins', sans-serif;
-    margin-left: 200px;
+    margin-left: 100px;
     margin-top: 120px;
     color: #ffff;
-    margin-right: 200px;
+    margin-right: 100px;
   }
 }
 
