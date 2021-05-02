@@ -466,11 +466,10 @@ button {
 /* resources */
 .resources {
   font-family: 'Poppins', sans-serif;
-  margin-left: 80px;
+  margin-left: 30px;
   margin-top: 120px;
   color: #ffff;
   margin-right: 30px;
-  height: 60vh;
 }
 
 .resources h1 {
@@ -488,15 +487,21 @@ button {
   color: #e1cde4;
 }
 
+.card-body {
+  color: black;
+}
+
+.card {
+  margin-bottom: 20px;
+}
 /* resources desktop view */
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1100px) {
   .resources {
     font-family: 'Poppins', sans-serif;
-    margin-left: 300px;
+    margin-left: 200px;
     margin-top: 80px;
     color: #ffff;
-    margin-right: 300px;
-    height: 50vh;
+    margin-right: 200px;
   }
 }
 
@@ -505,31 +510,6 @@ button {
   .resources h1 {
     font-size: 70px;
     margin-top: 150px;
-  }
-}
-
-/* resources ipad view */
-@media only screen and (device-width: 768px) {
-  .resources {
-    font-family: 'Poppins', sans-serif;
-    margin-left: 200px;
-    margin-top: 80px;
-    color: #ffff;
-    margin-right: 200px;
-    height: 70vh;
-  }
-}
-
-/* resources ipad pro */
-@media screen and (min-width: 1000px) and (max-width: 1060px) {
-  .resources {
-    font-family: 'Poppins', sans-serif;
-    margin-left: 300px;
-    margin-top: 80px;
-    color: #ffff;
-    margin-right: 300px;
-    height: 75vh;
-    font-size: 30px;
   }
 }
 
