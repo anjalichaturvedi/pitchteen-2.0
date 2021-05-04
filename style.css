@@ -625,7 +625,7 @@ button {
   font-size: 70px
 }
 
-.prizes h5 {
+.prizes .row h5 {
   font-weight: bold;
   font-size: 20px;
 }
@@ -636,6 +636,18 @@ button {
 
 .prizes .card-body {
   color: white;
+}
+
+.prizes a {
+  color: #ffff;
+  margin-top: 10px;
+  padding: 0px;
+  text-decoration: underline;
+  font-weight: none;
+}
+
+.prizes a:hover {
+  color: #e1cde4;
 }
 
 /* faq desktop view  */
